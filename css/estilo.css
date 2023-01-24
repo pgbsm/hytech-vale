@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    width: 100%;
+    padding: 15px 80px 0 80px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #face0b;
+
+}
+
+.logo {
+    width: 130px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .nav-link {
+    font-weight: 700;
+    color: ;
+}
+
+.container-principal {
+    background-color: #353535;
+    padding: 10px 60px;
+}
+
+.carousel-item {
+    display: flex;
+}
+
+.btn-principal {
+    text-decoration: none;
+    color: white;
+} */
