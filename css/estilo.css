@@ -6,8 +6,8 @@
 
 .cabecalho {
     width: 100%;
-    padding: 15px 80px 0 80px;
-    height: 100px;
+    padding: 20px 80px 0 80px;
+    height: 120px;
     background-color: #FFFFFF;
     border-bottom: 10px solid #face0b;
 
@@ -21,6 +21,48 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav-link {
+    font-weight: 700;
+    color: #211F20;
+}
+
+.caixa-principal {
+    background-color: #353535;
+    padding: 25px 0;
+}
+
+.fundo-produtos {
+    background-image: url("../img/bg-2.png");
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+
+.caixa-produtos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.card {
+    width: 15rem;
+    margin: 20% 0;
+    background-color: #505050;
+    border: none;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 1px solid #353535;
+    background-color: #353535;
+    color: white;
+}
+
 
 /* .nav-link {
     font-weight: 700;
