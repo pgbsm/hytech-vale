@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.corpo {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E2E1DD;
 }
 
 .cabecalho {
@@ -63,7 +70,46 @@
     color: white;
 }
 
+.fundo-marcas {
+    padding: 20px;
+}
 
+.caixa-marcas {
+    border-top: 10px solid #face0b;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+.marcas {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.marca:hover {
+    scale: 1.1;
+}
+
+.titulo-marcas {
+    font-weight: 700;
+}
+
+.oculto {
+    display: none;
+}
+
+.btn-dark {
+    width: 300px;
+}
+
+.caixa-btn-drop {
+    margin-top: 40px;
+}
 /* .nav-link {
     font-weight: 700;
     color: ;
