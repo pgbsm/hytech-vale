@@ -19,7 +19,35 @@
     <header class="cabecalho">
       <nav class="container navbar navbar-expand">
         <img class="logo" src="img/Hytech-Logo PNG.png" alt="" />
-        <ul class="nav">
+        <ul class="nav topnav" id="myTopnav">
+          <li class="nav-icon">
+            <button data-bs-toggle="dropdown" >
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <svg
+                  class="ham hamRotate180 ham5"
+                  id="burger"
+                  viewBox="0 0 100 100"
+                  width="80"
+                  onclick="toogle();"
+                >
+                  <path
+                    class="line top"
+                    d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429"
+                  />
+                  <path class="line middle" d="m 70,50 h -40" />
+                  <path
+                    class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429"
+                  />
+                </svg>
+              </a>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
           <li class="nav-item"><a href="" class="nav-link">EMPRESA</a></li>
           <li class="nav-item"><a href="" class="nav-link">PRODUTOS</a></li>
@@ -53,7 +81,11 @@
           ></button>
         </div>
 
-        <div class="container carousel-inner" id="carouselExampleControlsNoTouching" data-bs-touch="false">
+        <div
+          class="container carousel-inner"
+          id="carouselExampleControlsNoTouching"
+          data-bs-touch="false"
+        >
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="img/hytech_01.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-block">
@@ -151,26 +183,29 @@
       <div class="container caixa-marcas">
         <h2 class="titulo-marcas">TRABALHAMOS COM AS MELHORES MARCAS</h2>
         <p>Confira abaixo algumas delas:</p>
-          <div class="marcas">
-            <img class="marca" src="img/LOGO-BALLUFF-207x114.png" alt="" />
-            <img class="marca" src="img/LOGO-FESTO.png" alt="" />
-            <img class="marca" src="img/LOGO-GATES.png" alt="" />
-            <img class="marca" src="img/LOGO-MANULI.png" alt="" />
-          </div>
-          <div id="drop" class="marcas oculto">
-            <img class="marca" src="img/LOGO-METAL.png" alt="" />
-            <img class="marca" src="img/LOGO-MICRO.png" alt="" />
-            <img class="marca" src="img/LOGO-PARKER.png" alt="" />
-          </div>
-          <div class="caixa-btn-drop">
-            <input type="submit" id="btn-drop" class="btn btn-dark" value="VER MAIS"    >
-          </div>
+        <div class="marcas">
+          <img class="marca" src="img/LOGO-BALLUFF-207x114.png" alt="" />
+          <img class="marca" src="img/LOGO-FESTO.png" alt="" />
+          <img class="marca" src="img/LOGO-GATES.png" alt="" />
+          <img class="marca" src="img/LOGO-MANULI.png" alt="" />
+        </div>
+        <div id="drop" class="marcas oculto">
+          <img class="marca" src="img/LOGO-METAL.png" alt="" />
+          <img class="marca" src="img/LOGO-MICRO.png" alt="" />
+          <img class="marca" src="img/LOGO-PARKER.png" alt="" />
+        </div>
+        <div class="caixa-btn-drop">
+          <input
+            type="submit"
+            id="btn-drop"
+            class="btn btn-dark"
+            value="VER MAIS"
+          />
+        </div>
       </div>
     </section>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <script src="js/script.js"></script>
     <script
