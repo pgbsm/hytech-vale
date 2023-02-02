@@ -43,77 +43,9 @@
     display: none;
 }
 
-@media screen and (max-width: 850px) {
-    .topnav .nav-item:not(:first-child) {
-        display: none;
-    }
-    .topnav li.nav-icon {
-        float: right;
-        display: block;
-    }
-}
-@media screen and (max-widht: 850px) {
-    .topnav.responsive {
-        position: relative;
-    }   
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
-
-.ham {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.hamRotate.active {
-    transform: rotate(45deg);
-}
-
-.hamRotate180.active {
-    transform: rotate(180deg);
-}
-
-.line {
-    fill: none;
-    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: #353535;
-    stroke-width: 4;
-    stroke-linecap: round;
-}
-
-.ham5 .top {
-    stroke-dasharray: 40 82;
-}
-
-.ham5 .bottom {
-    stroke-dasharray: 40 82;
-}
-
-.ham5.active .top {
-    stroke-dasharray: 14 82;
-    stroke-dashoffset: -72px;
-}
-
-.active .line {
-    stroke: #353535;
-}
-
-.ham5.active .bottom {
-    stroke-dasharray: 14 82;
-    stroke-dashoffset: -72px;
+.btn-drop {
+    border: none;
+    background-color: transparent;
 }
 
 
@@ -136,21 +68,20 @@
 .fundo-produtos {
     background-image: url("../img/bg-2.png");
     background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
 }
 
 .caixa-produtos {
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
 }
 
 .card {
     width: 15rem;
-    margin: 20% 0;
+    margin: 10% 0;
     background-color: #505050;
     border: none;
 }
+
 
 .card-body {
     display: flex;
@@ -185,10 +116,6 @@
     margin: 1rem;
 }
 
-.marca:hover {
-    scale: 1.1;
-}
-
 .titulo-marcas {
     font-weight: 700;
 }
@@ -204,6 +131,29 @@
 .caixa-btn-drop {
     margin-top: 40px;
 }
+
+.secaoao-marcas {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.btn-marcas {
+    border: none;
+    background-color: transparent;
+}
+
+.prev-icon-dark {
+    background-image: url(../img/arrow-left-circle.svg);
+}
+
+.next-icon-dark {
+    background-image: url(../img/arrow-right-circle.svg);
+}
+
+.conjunto-marca {background-color: rebeccapurple;}
+
+
 /* .nav-link {
     font-weight: 700;
     color: ;
