@@ -7,142 +7,122 @@
     <title>
       Hytech Vale | Automação, Pneumática, Hidráulica e Filtragem Industrial
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
     />
+    <!-- Folhas de estilo -->
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
   </head>
-  <body class="corpo">
-    <header class="cabecalho">
-      <nav class="container navbar navbar-expand">
-        <img class="logo" src="img/Hytech-Logo PNG.png" alt="" />
-        <ul class="nav topnav" id="myTopnav">
-          <li class="nav-icon">
-            <button class="btn-drop" data-bs-toggle="dropdown" >
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <svg
-                  class="ham hamRotate180 ham5"
-                  id="burger"
-                  viewBox="0 0 100 100"
-                  width="80"
-                  onclick="toogle();"
-                >
-                  <path
-                    class="line top"
-                    d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429"
-                  />
-                  <path class="line middle" d="m 70,50 h -40" />
-                  <path
-                    class="line bottom"
-                    d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429"
-                  />
-                </svg>
-              </a>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+  <body>
+    <header class="header">
+      <nav class="header-navbar">
+        <img class="header-navbar-logo" src="img/Hytech-Logo PNG.png" alt="" />
+
+        <section class="header-navbar-icon">
+          <nav class="navigation" role="navigation">
+            <input id="toggle1" type="checkbox" />
+            <label class="hamburger1" for="toggle1">
+              <div class="top"></div>
+              <div class="meat"></div>
+              <div class="bottom"></div>
+            </label>
+
+            <ul class="menu1">
+                <li><a class="link1" href="">HOME</a></li>
+                <li><a class="link1" href="">EMPRESA</a></li>
+                <li><a class="link1" href="">PRODUTOS</a></li>
+                <li><a class="link1" href="">SERVIÇOS</a></li>
+                <li><a class="link1" href="">CONTATOS</a></li>
             </ul>
+          </nav>
+        </section>
+        <ul class="header-navbar-topnav" id="myTopnav">
+          <li class="header-navbar-topnav-item">
+            <a href="" class="header-navbar-topnav-link">HOME</a>
           </li>
-          <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
-          <li class="nav-item"><a href="" class="nav-link">EMPRESA</a></li>
-          <li class="nav-item"><a href="" class="nav-link">PRODUTOS</a></li>
-          <li class="nav-item"><a href="" class="nav-link">SERVIÇOS</a></li>
-          <li class="nav-item"><a href="" class="nav-link">CONTATOS</a></li>
+          <li class="header-navbar-topnav-item">
+            <a href="" class="header-navbar-topnav-link">EMPRESA</a>
+          </li>
+          <li class="header-navbar-topnav-item">
+            <a href="" class="header-navbar-topnav-link">PRODUTOS</a>
+          </li>
+          <li class="header-navbar-topnav-item">
+            <a href="" class="header-navbar-topnav-link">SERVIÇOS</a>
+          </li>
+          <li class="header-navbar-topnav-item">
+            <a href="" class="header-navbar-topnav-link">CONTATOS</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main class="caixa-principal">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-
-        <div
-          class="container carousel-inner"
-          id="carouselExampleControlsNoTouching"
-          data-bs-touch="false"
-        >
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/hytech_01.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-block">
-              <h5>Pneumática, Hidráulica e Filtros Industriais</h5>
-              <p>
-                A Hytech Vale atende empresas de todo o Brasil,oferecendo uma
-                linha completa em mangueiras, conexões, filtros, válvulas,
-                cilindros e demais soluções industriais.
-              </p>
-            </div>
+    
+    <!-- <section class="container sobre-empresa">
+      <main class="caixa-principal">
+        <div id="carouselExampleCaptions" class="carousel slide">
+  
           </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="img/hytech_02.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Pneumática, Hidráulica e Filtros Industriais</h5>
-              <p>
-                A Hytech Vale atende empresas de todo o Brasil,oferecendo uma
-                linha completa em mangueiras, conexões, filtros, válvulas,
-                cilindros e demais soluções industriais.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="img/hytech_04.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Pneumática, Hidráulica e Filtros Industriais</h5>
-              <p>
-                A Hytech Vale atende empresas de todo o Brasil,oferecendo uma
-                linha completa em mangueiras, conexões, filtros, válvulas,
-                cilindros e demais soluções industriais.
-              </p>
-            </div>
-          </div>
-
-          <button
-            class="container carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
+  
+          <div
+            class="container carousel-inner"
+            id="carouselExampleControlsNoTouching"
+            data-bs-touch="false"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/hytech_01.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+           
+              </div>
+            </div>
+            <!-- <div class="carousel-item" data-bs-interval="10000">
+              <img src="img/hytech_02.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="img/hytech_04.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+  
+              </div>
+            </div> -->
+  
+            <button
+              class="container carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-      </div>
-    </main>
-    <section class="fundo-produtos">
+      </main> -->
+      <!--
+      <div class="container caixa-sobre">
+        <h2 class="seguimento-empresa">Pneumática, Hidráulica e Filtros Industriais</h2>
+        <p class="descricao-empresa">
+          A Hytech Vale atende empresas de todo o Brasil,oferecendo uma
+          linha completa em mangueiras, conexões, filtros, válvulas,
+          cilindros e demais soluções industriais.
+        </p>
+    </section>
+
+     <section class="fundo-produtos">
       <div class="container">
           <div class="caixa-produtos">
             
@@ -176,6 +156,7 @@
 
       </div>
     </section>
+
     <section class="fundo-marcas">
       <div class="container caixa-marcas">
         <h2 class="titulo-marcas">TRABALHAMOS COM AS MELHORES MARCAS</h2>
@@ -190,7 +171,9 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+
+    </footer> -->
 
     <script src="js/script.js"></script>
     <script

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E2E1DD;
+}
+
+.cabecalho {
+    width: 100%;
+    padding: 20px 80px 0 80px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #face0b;
+
+}
+
+/* ........................... */
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    font-weight: 700;
+    color: #363335;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.topnav a:hover {
+    color: #000000;
+}
+
+.topnav .nav-icon {
+    display: none;
+}
+
+.btn-drop {
+    border: none;
+    background-color: transparent;
+}
+
+
+/* ........................... */
+
+.logo {
+    width: 130px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-principal {
+    background-color: #353535;
+    padding: 25px 0;
+}
+
+.fundo-produtos {
+    background-image: url("../img/bg-2.png");
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caixa-produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 15rem;
+    margin: 10% 0;
+    background-color: #505050;
+    border: none;
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 1px solid #353535;
+    background-color: #353535;
+    color: white;
+}
+
+.fundo-marcas {
+    padding: 20px;
+}
+
+.caixa-marcas {
+    border-top: 10px solid #face0b;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+.marcas {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.titulo-marcas {
+    font-weight: 700;
+}
+
+.oculto {
+    display: none;
+}
+
+.btn-dark {
+    width: 300px;
+}
+
+.caixa-btn-drop {
+    margin-top: 40px;
+}
+
+.secaoao-marcas {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.btn-marcas {
+    border: none;
+    background-color: transparent;
+}
+
+.prev-icon-dark {
+    background-image: url(../img/arrow-left-circle.svg);
+}
+
+.next-icon-dark {
+    background-image: url(../img/arrow-right-circle.svg);
+}
+
+.conjunto-marca {background-color: rebeccapurple;}

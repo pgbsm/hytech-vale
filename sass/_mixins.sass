@@ -1,0 +1,16 @@
+@use 'variables'
+ 
+@mixin container 
+    max-width: variables.$container-width
+    padding: 1.5rem
+    margin: 0 auto
+
+@mixin flex-center 
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin mobile
+    @media (max-width: 650px)
+        @content
+    
