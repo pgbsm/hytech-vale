@@ -4,182 +4,287 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Hytech Vale | Automação, Pneumática, Hidráulica e Filtragem Industrial
-    </title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@600&family=Roboto:wght@300,700&display=swap"
       rel="stylesheet"
     />
     <!-- Folhas de estilo -->
-    <link rel="stylesheet" href="css/estilo.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
   </head>
-
   <body>
-    <header class="header">
-      <nav class="header-navbar">
-        <img class="header-navbar-logo" src="img/Hytech-Logo PNG.png" alt="" />
+    <div class="container">
+      <header class="header">
+        <nav class="header-navbar">
+          <img
+            src="img/Hytech-Logo PNG.png"
+            alt="Logo da onebitcode"
+            class="header-navbar-logo"
+          />
+          <section class="header-navbar-icon">
+            <nav class="header-navbar-icon-navicon" role="navigation">
+              <input id="toggle1" type="checkbox" />
+              <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+              </label>
 
-        <section class="header-navbar-icon">
-          <nav class="navigation" role="navigation">
-            <input id="toggle1" type="checkbox" />
-            <label class="hamburger1" for="toggle1">
-              <div class="top"></div>
-              <div class="meat"></div>
-              <div class="bottom"></div>
-            </label>
-
-            <ul class="menu1">
+              <!-- <ul class="navigation-menu">
                 <li><a class="link1" href="">HOME</a></li>
                 <li><a class="link1" href="">EMPRESA</a></li>
                 <li><a class="link1" href="">PRODUTOS</a></li>
                 <li><a class="link1" href="">SERVIÇOS</a></li>
                 <li><a class="link1" href="">CONTATOS</a></li>
-            </ul>
-          </nav>
-        </section>
-        <ul class="header-navbar-topnav" id="myTopnav">
-          <li class="header-navbar-topnav-item">
-            <a href="" class="header-navbar-topnav-link">HOME</a>
-          </li>
-          <li class="header-navbar-topnav-item">
-            <a href="" class="header-navbar-topnav-link">EMPRESA</a>
-          </li>
-          <li class="header-navbar-topnav-item">
-            <a href="" class="header-navbar-topnav-link">PRODUTOS</a>
-          </li>
-          <li class="header-navbar-topnav-item">
-            <a href="" class="header-navbar-topnav-link">SERVIÇOS</a>
-          </li>
-          <li class="header-navbar-topnav-item">
-            <a href="" class="header-navbar-topnav-link">CONTATOS</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    
-    <!-- <section class="container sobre-empresa">
-      <main class="caixa-principal">
-        <div id="carouselExampleCaptions" class="carousel slide">
-  
-          </div>
-  
-          <div
-            class="container carousel-inner"
-            id="carouselExampleControlsNoTouching"
-            data-bs-touch="false"
-          >
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="img/hytech_01.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-block">
-           
-              </div>
-            </div>
-            <!-- <div class="carousel-item" data-bs-interval="10000">
-              <img src="img/hytech_02.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="img/hytech_04.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-  
-              </div>
-            </div> -->
-  
-            <button
-              class="container carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </main> -->
-      <!--
-      <div class="container caixa-sobre">
-        <h2 class="seguimento-empresa">Pneumática, Hidráulica e Filtros Industriais</h2>
-        <p class="descricao-empresa">
-          A Hytech Vale atende empresas de todo o Brasil,oferecendo uma
-          linha completa em mangueiras, conexões, filtros, válvulas,
-          cilindros e demais soluções industriais.
+              </ul> -->
+            </nav>
+          </section>
+          <ul class="header-navbar-lista">
+            <li class="header-navbar-lista-item">
+              <a href="" class="header-navbar-lista-item-link">Home</a>
+            </li>
+            <li class="header-navbar-lista-item">
+              <a href="" class="header-navbar-lista-item-link">Empresa</a>
+            </li>
+            <li class="header-navbar-lista-item">
+              <a href="" class="header-navbar-lista-item-link">Produtos</a>
+            </li>
+            <li class="header-navbar-lista-item">
+              <a href="" class="header-navbar-lista-item-link">Serviços</a>
+            </li>
+            <li class="header-navbar-lista-item">
+              <a href="" class="header-navbar-lista-item-link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section">
+        <h1 id="top" class="section-titulo">Conheça nossos produtos!</h1>
+        <p class="section-descricao">
+          Pneumática, Hidráulica e Filtros Industriais
         </p>
-    </section>
+      </section>
+      <main class="main">
+        <section class="main-itens">
+          <ul class="main-itens-lista">
+            <li class="main-itens-lista-categoria card1">
+              <h2 class="main-itens-lista-categoria-titulo">Automação</h2>
+            </li>
+            <li class="main-itens-lista-cards card1-1">
+              <img
+                src="img/automacao_01.png"
+                alt="Boxe"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Atuadores FRL</li>
+                <li>Válvulas Solenóide</li>
+                <li>Válvulas Direcionais</li>
+                <li>Conexões</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card1-2">
+              <img
+                src="img/automacao_02.png"
+                alt="Crossfit"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Tubos</li>
+                <li>Cilindros Pneumáticos</li>
+                <li>Guias Lineares</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card1-3">
+              <img
+                src="img/automacao_03.png"
+                alt="Natação"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Servo – Motores</li>
+                <li>Cilindro sem Haste</li>
+                <li>Conjuntos Lubrefil</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-categoria card2">
+              <h2 class="main-itens-lista-categoria-titulo">
+                Conexões e Mangueiras
+              </h2>
+            </li>
+            <li class="main-itens-lista-cards card2-1">
+              <img
+                src="img/conexoes-mangueiras_01.png"
+                alt="Roupas"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Mangueiras de baixa</li>
+                <li>Mangueiras de alta pressão</li>
+                <li>Conexões de baixa pressão</li>
+                <li>Conexões de alta pressão</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card2-2">
+              <img
+                src="img/conexoes-mangueiras_02.png"
+                alt="Basquete"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Engates rápidos</li>
+                <li>Mangueira montada</li>
+                <li>Válvulas esfera</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card2-3">
+              <img
+                src="img/conexoes-mangueiras_03.png"
+                alt="Corrida"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Tubos Termoplásticos</li>
+                <li>Mangueira Aspiraladas</li>
+                <li>Adaptadores</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-categoria card3">
+              <h2 class="main-itens-lista-categoria-titulo">Filtragem</h2>
+            </li>
+            <li class="main-itens-lista-cards card3-1">
+              <img
+                src="img/filtragem_01.png"
+                alt="Surf"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Filtros Hidráulicos</li>
+                <li>Filtros de Processos e Microfiltração</li>
+                <li>Filtros para ar comprimido</li>
+                <li>Filtros para purificação de gases</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card3-2">
+              <img
+                src="img/filtragem_02.png"
+                alt="Trilha"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Filtros para ar</li>
+                <li>Filtros para óleos combustíveis</li>
+                <li>Filtros para lubrificantes</li>
+              </ul>
+            </li>
+            <li class="main-itens-lista-cards card3-3">
+              <img
+                src="img/filtragem_03.png"
+                alt="Tenis"
+                class="main-itens-lista-cards-img"
+              />
+              <ul class="main-itens-lista-cards-descricao">
+                <li>Filtros do combustível separadores de água</li>
+                <li>Filtros de fluidos Refrigerantes</li>
+                <li>Separadores de condensados</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
 
-     <section class="fundo-produtos">
-      <div class="container">
-          <div class="caixa-produtos">
-            
-              <div class="card">
-                <img src="img/produtos 1.jpg" class="card-img-top" alt="..." />
-                <div class="card-body dark">
-                  <a href="#" class="btn btn-outline-light">Automação Industrual</a>
-                </div>
-              </div>
-              <div class="card">
-                <img src="img/produtos 2.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <a href="#" class="btn btn-outline-light">Magueiras e Conexões</a>
-                </div>
-              </div>
-              <div class="card">
-                <img src="img/produtos 3.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <a href="#" class="btn btn-outline-light"
-                    >Hidráulica Industrial</a
-                  >
-                </div>
-              </div>
-              <div class="card">
-                <img src="img/produtos 4.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <a href="#" class="btn btn-outline-light">Filtração Industrial</a>
-                </div>
-              </div>
-          </div>
-
-      </div>
-    </section>
-
-    <section class="fundo-marcas">
-      <div class="container caixa-marcas">
-        <h2 class="titulo-marcas">TRABALHAMOS COM AS MELHORES MARCAS</h2>
-        <p>Confira abaixo algumas delas:</p>
-        <div class="secaoao-marcas">
-                    
-        </div>
-        <button class="control-next btn-marcas" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon next-icon-dark" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-
-    <footer>
-
-    </footer> -->
-
-    <script src="js/script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+        <aside class="main-aside">
+          <h2 class="main-aside-titulo">Marcas que nós trabalhamos</h2>
+          <ul class="main-aside-lista">
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-BALLUFF.png"
+                alt="Balluf"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Balluf</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-FESTO.png"
+                alt="Festo"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Festo</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-GATES.png"
+                alt="Gates"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Gates</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-MANULI.png"
+                alt="Manuli"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Manuli</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-METAL.png"
+                alt="Metal Work"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Metal Work</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-MICRO.png"
+                alt="Micro automação"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Micro automação</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-PARKER.png"
+                alt="Parker"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Parker</h2>
+            </li>
+            <li class="main-aside-lista-itens">
+              <img
+                src="img/LOGO-PILZ.png"
+                alt="Pilz"
+                class="main-aside-lista-itens-img"
+              />
+              <h2 class="main-aside-lista-itens-titulo">Pilz</h2>
+            </li>
+          </ul>
+        </aside>
+      </main>
+      <footer class="footer">
+        <nav class="footer-navbar">
+          <img
+            src="img/Hytech-Logo PNG.png"
+            alt="Logo da onebitcode"
+            class="footer-navbar-logo"
+          />
+          <a href="#top" class="footer-navbar-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-arrow-up-circle-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+              /></svg
+          ></a>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
